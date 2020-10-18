@@ -1,0 +1,144 @@
+/*
+Theme Name: MySimpleTheme
+Text Domain: mysimpletheme
+Version: 1.0
+Requires at least: 4.5.2
+Requires PHP: 5.2.4
+Description: My very own simple theme built from scratch as part of a course on Eduonix.com, courtesy of Brad Traversy of Traversy Media.
+Author: Fionn Ross
+Author URI: https://fionnrossonline.com/
+Theme URI: https://github.com/rossfion/mysimpletheme/
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+All files, unless otherwise stated, are released under the GNU General Public
+License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned
+with others.
+*/
+
+body {
+	font-family: Arial;
+	font-size: 15px;
+	color: #333;
+	background: #f4f4f4;
+	margin: 0;
+	padding: 0;
+	line-height: 1.7em;
+}
+
+a {
+	color: #333;
+}
+
+header {
+	background: #393939;
+	color: #fff;
+	padding: 20px 10px;
+}
+
+header h1 {
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 10px;
+}
+
+.container {
+	width: 1020px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+.clr {
+	clear: both;
+}
+
+.main {
+	margin: 15px;
+	float: left;
+	width: 68%;
+}
+
+article.post {
+	border-bottom: 1px solid #ccc;
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+
+article a.button {
+	display: inline-block;
+	background: #333;
+	color: #fff;
+	padding: 10px 5px;
+	margin-bottom: 10px;
+	text-decoration: none;
+}
+
+.meta {
+	background: #333;
+	color: #fff;
+	padding: 5px;
+}
+
+.meta a {
+	color: #fff;
+}
+
+.post-thumbnail img {
+	width: 100%;
+	height: auto;
+}
+
+.main-nav {
+	background: #000;
+	color: #fff;
+	padding: 5px;
+}
+
+.main-nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+.main-nav li {
+	list-style: none;
+	float: left;
+	padding-right: 15px;
+}
+
+.main-nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.sidebar {
+	float: right;
+	width: 28%;
+}
+
+.side-widget {
+	border: 1px solid #ccc;
+	padding: 10px 10px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.side-widget li {
+	list-style: none;
+	line-height: 2.2em;
+	border-bottom: 1px dotted #ccc;
+}
+
+.side-widget a {
+	text-decoration: none;
+}
+
+footer {
+	background: #393939;
+	color: #fff;
+	padding: 20px 10px;
+	text-align: center;
+}
